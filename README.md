@@ -25,8 +25,8 @@ server {
 }
 
 probros portov hq:
-ip nat source static tcp 192.168.100.2 80 172.16.4.2 80
-ip nat source static tcp 192.168.100.2 2025 172.16.4.2 2025
+ip nat source static tcp 192.168.100.2 80 172.16.4.2 80 <br/>
+ip nat source static tcp 192.168.100.2 2025 172.16.4.2 2025<br/>
 
 ![image](https://github.com/user-attachments/assets/860e7d80-cb26-43f3-bac6-d40d167709d9)
 
