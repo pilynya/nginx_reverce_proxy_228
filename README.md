@@ -34,3 +34,7 @@ probros portov br:
 ip nat source static tcp 192.168.150.2 8080 172.16.5.2 80
 ip nat source static tcp 192.168.150.2 2025 172.16.5.2 2025
 ![image](https://github.com/user-attachments/assets/6266eacb-5584-49a0-89b5-212635e307cf)
+
+ОТКЛЮЧИТЬ SELINUX !!!!!
+nano /etc/selinux/config
+SELINUX=permissive
