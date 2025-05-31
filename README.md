@@ -1,4 +1,4 @@
-# nginx_reverce_proxy_228
+# nginx_reverce_proxy_and_ports
 server {
     listen 80;
     server_name moodle moodle.au-team.irpo;
