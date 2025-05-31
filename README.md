@@ -41,6 +41,8 @@ ip nat source static tcp 192.168.150.2 2025 172.16.5.2 2025<br/>
 nano /etc/selinux/config <br/>
 SELINUX=permissive<br/>
 
+setenforce 0 <br/>
+
 для вики меняем в LocalSettings.php<br/>
 
 ![image](https://github.com/user-attachments/assets/78de2d75-dcb2-49ac-9972-df0162d231bd)
